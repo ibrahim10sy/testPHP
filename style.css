@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-decoration: none;
+}
+
+fieldset{
+    width: 400px;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
+legend{
+    text-align: center;
+}
+label{
+    display: flex;
+    width: 100px;
+    float: left;
+}
+div{
+    margin: 1.5rem;
+}
+input, select{
+    width: 200px;
+}
+.btn{
+    border: none;
+    background: blue;
+    color: #fff;
+    width: 100%;
+    height: 25px;
+    box-sizing: border-box;
+    padding: 0 20px 0 20px;
+    
+}
+.disp{
+    background: blue;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    width: 80%;
+    height: 25px;
+}
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin:5rem ;
+}
+th{
+    background: #656363;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+td{
+    text-align: center;
+}
